@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border</title>
+	<style>
+		.btn-red{
+			padding: 10px;
+			background: red;
+			color: #fff;
+		}
+		.btn-blue{
+			padding: 10px;
+			background: blue;
+			color: #fff;
+		}
+		.btn-green{
+			padding: 10px;
+			background: green;
+			color: #fff;
+		}
+		.solid{
+			border-style: solid;
+			border-width: 4px;
+			border-color: #000;
+		}
+		.dotted{
+			border-style: dotted;
+			border-width: 4px;
+			border-color: #000;
+		}
+		.double{
+			border-style: double;
+			border-width: 4px;
+			border-color: #000;
+		}
+		.ridge{
+			border-style: ridge;
+			border-width: 4px;
+		}
+		.inset{
+			border-style: inset;
+			border-width: 4px;
+		}
+		.outset{
+			border-style: outset;
+			border-width: 4px;
+		}
+		.round{
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<fieldset>
+		<legend>Border Style</legend>
+		<p class="btn-red solid">Solid</p>
+		<p class="btn-blue dotted">Dotted</p>
+		<p class="btn-green ridge">Ridge</p>
+		<p class="btn-red double">Double</p>
+		<p class="btn-blue inset">Inset</p>
+		<p class="btn-green outset">Outset</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>Round Border</legend>
+		<p class="btn-red solid round">Solid</p>
+		<p class="btn-blue dotted round">Dotted</p>
+		<p class="btn-green ridge round">Ridge</p>
+		<p class="btn-red double round">Double</p>
+		<p class="btn-blue inset round">Inset</p>
+		<p class="btn-green outset round">Outset</p>
+	</fieldset>
+</body>
+</html>
